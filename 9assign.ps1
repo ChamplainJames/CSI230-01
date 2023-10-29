@@ -13,3 +13,7 @@ Get-WmiObject Win32_NetworkAdapterConfiguration | Select DHCPServer, DNSServerSe
 ## Starting calc.exe
 
 Start-Process calc.exe
+
+## Stopping calc.exe
+
+#Stop-Process -Name Calculator
